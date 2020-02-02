@@ -137,6 +137,7 @@ margin-left: 10px;
     background-color: #dbf2f1;
     position: relative;
     padding-top: 50px;
+    overflow: hidden;
 }
 .middle-container
 {
