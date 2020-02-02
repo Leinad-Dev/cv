@@ -1,0 +1,262 @@
+/***************************Tage Selectors*************************/
+
+body
+{
+  margin:0;
+  text-align: center;
+  /* go here to get embed fonts */
+  /* https://fonts.google.com/ */
+  font-family: 'Merriweather', serif;
+}
+
+
+
+.scrollmenu{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.scrollmenu li{
+    display:inline;
+}
+.scrollmenu a{
+    display:inline-block;
+    padding:15px;
+}
+
+
+h1
+{
+  color: #66BFBF;
+  font-size: 562.5%; /*16px = 100%*/
+  margin-top: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+}
+h2
+{
+  color: #66BFBF;
+  font-size: 120%;
+    font-family: 'Montserrat', sans-serif;
+}
+h3
+{
+  color: #11999E;
+    font-size: 200%;
+    font-family: 'Montserrat', sans-serif;
+}
+hr
+{
+
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin: 25px auto 25px auto;
+  width: 75px;
+}
+a
+{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover
+{
+  color: #EAF6F6 ;
+}
+.scrollmenu a:hover
+{
+  background-color: #11999E;
+  color: white;
+}
+.flaver-text
+{
+  position: relative;
+  margin-top: -50px;
+
+}
+.header
+{
+
+/*background-color: blue;*/
+height: 100px;
+margin: auto;
+
+}
+.container
+{
+/*background-color: red;*/
+position: relative;
+margin: auto;
+top: 10%;
+width: 45%;
+min-width: 480px;
+height: 80%;
+
+}
+.navigation-container
+{
+  margin: 0;
+  /*background-color: orange;*/
+  height: 49px;
+  width: 300px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: right;
+}
+
+
+
+
+
+
+
+
+.icon-container
+{
+
+/*background-color: green;*/
+
+height: 80px;
+width: 80px;
+float: left;
+margin-left: 10px;
+}
+.top-profile-icon
+{
+  width: 100%;
+}
+.mid-profile-icon
+{
+  width: 256px;
+}
+.top-container
+{
+    background-color: #dbf2f1;
+    position: relative;
+    padding-top: 50px;
+}
+.middle-container
+{
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px 0px 50px 0px;
+
+
+
+}
+.contact-message
+{
+  padding-bottom: 20px;
+}
+.bottom-container
+{
+  background-color: #66BFBF;
+  padding: 50px 0px 25px 0px;
+}
+
+.intro-text
+{
+  position: sticky;
+  margin-bottom: +60px;
+}
+.hi-text
+{
+
+
+  line-height: 2em;
+  text-align: center;
+
+
+}
+.top-cloud
+{
+  position: absolute;
+  right: 25%;
+  top:27%;
+}
+.bottom-cloud
+{
+  position: absolute;
+  left: 25%;
+  top: 60%;
+}
+@media all and (max-width: 1500px) {
+    .bottom-cloud
+    {
+          left: 15%;
+    }
+    .top-cloud
+    {
+        right: 10%;
+    }
+}
+@media all and (max-width: 980px) {
+    .bottom-cloud
+    {
+        left: -30px;
+    }
+    .top-cloud
+    {
+      right:-30px;
+    }
+}
+
+.mountain
+{
+  max-width: 100%;
+  vertical-align: bottom;
+
+}
+.myButton {
+	background-color:#1b7f69;
+	border-radius:7px;
+	display:inline-block;
+	cursor:pointer;
+	color:#dbf2f1;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 55px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 75%;
+  padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************Class Selectors*************************/
+/*overwrites tags selectors*/
+/*multi use on any given page*/
+
+/***************************ID Selectors*************************/
+/*overwrites tags selectors*/
+/*can only be used once on any given page*/
