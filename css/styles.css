@@ -55,7 +55,7 @@ h2
 h3
 {
   color: #11999E;
-    font-size: 200%;
+    font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
 }
 hr
@@ -81,6 +81,11 @@ a:hover
   color: #EAF6F6 ;
 }
 
+p
+{
+  line-height: 3rem;
+  color: #545454;
+}
 .flaver-text
 {
   position: relative;
@@ -163,6 +168,14 @@ margin-left: 10px;
 
 
 }
+
+.hi-text
+{
+
+
+  text-align: center;
+
+}
 .contact-message
 {
   padding-bottom: 20px;
@@ -171,22 +184,18 @@ margin-left: 10px;
 {
   background-color: #66BFBF;
   padding: 50px 0px 25px 0px;
+  font-size: 150%;
 }
-
+.bottom-container a
+{
+  margin: 0 20px;
+}
 .intro-text
 {
   position: sticky;
   margin-bottom: +60px;
 }
-.hi-text
-{
 
-
-  line-height: 2rem;
-  text-align: center;
-
-
-}
 .top-cloud
 {
   position: absolute;
@@ -250,7 +259,7 @@ margin-left: 10px;
 .copyright
 {
   color: #EAF6F6;
-  font-size: 75%;
+  font-size: 100%;
   padding: 10px 0px;
 }
 
