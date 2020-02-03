@@ -66,10 +66,7 @@ hr
   margin: 25px auto 25px auto;
   width: 75px;
 }
-p
-{
-  font-size: 115%;
-}
+
 a
 {
   color: #11999E;
@@ -185,7 +182,7 @@ margin-left: 10px;
 {
 
 
-  line-height: 2em;
+  line-height: 2rem;
   text-align: center;
 
 
