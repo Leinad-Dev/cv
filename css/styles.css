@@ -56,6 +56,10 @@ hr
   margin: 25px auto 25px auto;
   width: 75px;
 }
+p
+{
+  font-size: 115%;
+}
 a
 {
   color: #11999E;
@@ -63,6 +67,7 @@ a
   margin-right: 10px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 125%;
 }
 a:hover
 {
@@ -70,7 +75,8 @@ a:hover
 }
 .scrollmenu a
 {
-font-size: 170%;
+font-size: 250%;
+margin-right: 15px;
 }
 .scrollmenu a:hover
 {
@@ -88,7 +94,7 @@ font-size: 170%;
 
 /*background-color: blue;*/
 height: 100px;
-margin: auto;
+margin: 0 auto 8%;
 
 }
 .container
@@ -97,7 +103,7 @@ margin: auto;
 position: relative;
 margin: auto;
 top: 10%;
-width: 85%;
+width: 90%;
 min-width: 480px;
 height: 80%;
 
@@ -107,7 +113,7 @@ height: 80%;
   margin: 0;
   /*background-color: orange;*/
   height: 49px;
-  width: 300px;
+  width: 400px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
@@ -145,6 +151,7 @@ margin-left: 10px;
 
   background-color: #dbf2f1;
   padding-top: 50px;
+
   margin: 0 auto;
   overflow: hidden;
 
