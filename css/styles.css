@@ -12,7 +12,10 @@ padding: 0px;
 
 }
 
-
+.scrollmenu a.resume-r-margin
+{
+  margin: 0px;
+}
 
 .scrollmenu{
     list-style:none;
@@ -26,8 +29,15 @@ padding: 0px;
 .scrollmenu a{
     display:inline-block;
     padding:15px;
+    font-size: 2.5rem;
+    margin-right: 15px;
 }
 
+.scrollmenu a:hover
+{
+  background-color: #11999E;
+  color: white;
+}
 
 h1
 {
@@ -73,16 +83,7 @@ a:hover
 {
   color: #EAF6F6 ;
 }
-.scrollmenu a
-{
-font-size: 250%;
-margin-right: 15px;
-}
-.scrollmenu a:hover
-{
-  background-color: #11999E;
-  color: white;
-}
+
 .flaver-text
 {
   position: relative;
@@ -103,7 +104,7 @@ margin: 0 auto 8%;
 position: relative;
 margin: auto;
 top: 10%;
-width: 90%;
+width: 95%;
 min-width: 480px;
 height: 80%;
 
