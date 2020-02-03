@@ -68,6 +68,10 @@ a:hover
 {
   color: #EAF6F6 ;
 }
+.scrollmenu a
+{
+font-size: 150%;
+}
 .scrollmenu a:hover
 {
   background-color: #11999E;
