@@ -1,18 +1,15 @@
 /***************************Tage Selectors*************************/
 
-html, body
+body
 {
-
-  text-align: center;
-  /* go here to get embed fonts */
-  /* https://fonts.google.com/ */
-  font-family: 'Merriweather', serif;
-
-
-
+overflow-x: hidden;
+text-align: center;
+/* go here to get embed fonts */
+/* https://fonts.google.com/ */
+font-family: 'Merriweather', serif;
 margin: 0px;
 padding: 0px;
-overflow-x: hidden;
+
 }
 
 
@@ -140,9 +137,11 @@ margin-left: 10px;
 }
 .top-container
 {
-    background-color: #dbf2f1;
-    position: relative;
-    padding-top: 50px;
+  position: relative;
+
+  background-color: #dbf2f1;
+  padding-top: 50px;
+  margin: 0 auto;
 
 }
 .middle-container
